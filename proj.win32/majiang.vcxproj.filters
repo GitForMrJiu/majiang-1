@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{d104accc-fb6e-4b21-982e-aff981bc056e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{16b37174-70e7-4bd4-aaaf-d1943c3dacc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameCore">
+      <UniqueIdentifier>{a6fe3cbb-b091-4635-9709-607b259f40af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameCore\AI">
+      <UniqueIdentifier>{b17e9401-8714-42ed-b3e7-9e98ed3233e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameCore\RuleGen">
+      <UniqueIdentifier>{6cb8d294-b9ab-431e-ac04-2cfaffbdbb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Layer">
+      <UniqueIdentifier>{359db466-5301-4839-ae44-09455beace31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{cfd18159-e80a-4fad-9591-8af6c4b30125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprite">
+      <UniqueIdentifier>{a7e4a103-6bd8-4c90-a9c8-d8faf1f34a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprite\Batch">
+      <UniqueIdentifier>{83bc17c9-53dd-42b1-a94d-2c941771f45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\tinyxml">
+      <UniqueIdentifier>{ae516476-85ff-44c0-8b6a-dcafa87fd34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{2caba15c-ab05-4e58-8b30-fb7ef69868f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\fonts">
+      <UniqueIdentifier>{d4ca5854-c873-4640-8520-72ef28d6078b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image">
+      <UniqueIdentifier>{2fe45b1a-dd85-4317-83c4-03cfc0eb5c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\sound">
+      <UniqueIdentifier>{646bca00-a4ea-4f42-8156-5e63fc6b3155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\sound\mam">
+      <UniqueIdentifier>{883fd1db-48c3-4886-82a6-e83502faece7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\sound\woman">
+      <UniqueIdentifier>{40de851f-b7f2-4bf9-95c1-a4c1e19d69b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\bg_new">
+      <UniqueIdentifier>{d73fa9f4-3882-4d64-a5bf-d844e36f3d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\GK_new">
+      <UniqueIdentifier>{63f2c9d5-33cb-4959-ace7-27240a0093ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\Menu_new">
+      <UniqueIdentifier>{19dd2635-ed29-421c-b33c-29c997c0a626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\MJ_new">
+      <UniqueIdentifier>{dad01b66-630a-49bb-8cf7-ba1f10602063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\Net">
+      <UniqueIdentifier>{992c1055-c422-458f-92a1-2a632c8a4943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image\Net\Chat">
+      <UniqueIdentifier>{8f7d7bd5-bd2a-4d21-b278-cf249f0658e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppMacros.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CallJni.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StoreLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\CommonFunction.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\md5.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\MyTinyXmlParser.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\DeskEntity.cpp">
+      <Filter>Classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameCore\GameLogical.cpp">
+      <Filter>Classes\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameCore\AI\Robot.cpp">
+      <Filter>Classes\GameCore\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameCjLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameDesk.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameHelp.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameMenu.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameMessage.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameMGLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GamePause.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameResult.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameSet.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameShowCJ.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GkInfoDetailLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GkInfoLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GuanKaLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\PersonSet.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\SetProgress.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\SplashLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Card.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\GameCjSprite.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\GameMGSprite.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\GuanKaSprite.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\MyCard.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\OutCard.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\ScrollWordAndImage.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\SelectSprite.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\ShowCJ.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\SpriteWordAndImage.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Timer.cpp">
+      <Filter>Classes\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\ActionBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\DeskCardsBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\GameCjBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\GameMGBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\GkInfoBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\GuanKaBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\MarkBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\MyCardsBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite\Batch\SplashBatch.cpp">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameCjScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameMoreGameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GkInfoScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GuanKaScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\HelpScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LoadingScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MenuScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PersonSetScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SetScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinystr.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxml.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlerror.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlparser.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\xmltest.cpp">
+      <Filter>Classes\tinyxml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CallJni.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StoreLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\CommonFunction.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\ConstantDef.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\md5.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\MyTinyXmlParser.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\DeskEntity.h">
+      <Filter>Classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\ClientCommon.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\ClientFrameDefs.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\ClientMjDefs.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\ClientScoreDefs.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\GameLogical.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\MjDef.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\ServerFrameDefs.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\TypeDef.h">
+      <Filter>Classes\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\AI\Robot.h">
+      <Filter>Classes\GameCore\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCore\RuleGen\RuleDef.h">
+      <Filter>Classes\GameCore\RuleGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameCjLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameDesk.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameHelp.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameMenu.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameMessage.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameMGLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GamePause.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameResult.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameSet.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameShowCJ.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GkInfoDetailLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GkInfoLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GuanKaLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\ParentLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\PersonSet.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\SetProgress.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\SplashLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Card.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\GameCjSprite.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\GameMGSprite.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\GuanKaSprite.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\MyCard.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\OutCard.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\ScrollWordAndImage.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\SelectSprite.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\ShowCJ.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\SpriteWordAndImage.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Timer.h">
+      <Filter>Classes\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\ActionBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\DeskCardsBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\GameCjBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\GameMGBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\GkInfoBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\GuanKaBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\MarkBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\MyCardsBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite\Batch\SplashBatch.h">
+      <Filter>Classes\Sprite\Batch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameCjScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameMoreGameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GkInfoScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GuanKaScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\HelpScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LoadingScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MenuScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PersonSetScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SetScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinystr.h">
+      <Filter>Classes\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinyxml.h">
+      <Filter>Classes\tinyxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\cj.xml">
+      <Filter>Resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\guanka.xml">
+      <Filter>Resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\help.xml">
+      <Filter>Resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\moregames.xml">
+      <Filter>Resource</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg.jpg">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_1.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_2.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_3.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_4.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_5.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_6.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_7.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_8.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_9.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_10.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_11.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_12.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\bg_gk_name_13.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\btn_splash_start_1.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\btn_splash_start_2.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\loading.jpg">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\splash_page_1.jpg">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\splash_page_2.jpg">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\splash_page_3.jpg">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\splash_page_select.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\bg_new\splash_page_unselect.png">
+      <Filter>Resource\Image\bg_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\GK_new\gk_bg.png">
+      <Filter>Resource\Image\GK_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\GK_new\gk_kuang.png">
+      <Filter>Resource\Image\GK_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\GK_new\guanka.png">
+      <Filter>Resource\Image\GK_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\bitmapFontTest4.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\confirm.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\confirm_2.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\FourRMB.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\frame_mainmenu.jpg">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\frame_message.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\frame_pause.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\frame_set.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\frame_shop.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\menu.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\number.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\personset.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\set_progress.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\SixRMB.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\TowRMB.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Menu_new\white.png">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\MJ_new\frame_js.png">
+      <Filter>Resource\Image\MJ_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\MJ_new\mjtt.png">
+      <Filter>Resource\Image\MJ_new</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Net\Chat\chat.png">
+      <Filter>Resource\Image\Net\Chat</Filter>
+    </Image>
+    <Image Include="..\Resources\Image\Net\Chat\chat_bg.png">
+      <Filter>Resource\Image\Net\Chat</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\feeInfo.dat">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resources\sound\complete.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\end.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\failed.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\gaming.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\get.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\through.OGG">
+      <Filter>Resource\sound</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\0-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\0-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\3.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\4.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\5.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\6.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\7.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\8.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\9-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\9-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\9-2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\10-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\10-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\11.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\12.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\13.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\14.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\15.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\16.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\17.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\18-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\18-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\18-2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\19.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\20.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\21.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\22-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\22-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\22-2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\23.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\24.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\25-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\25-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\26-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\26-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\angang-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\angang-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\gang-0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\gang-1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\gang-2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\hu.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\hu1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\hu2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\peng0.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\peng1.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\peng2.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\peng3.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\man\peng4.OGG">
+      <Filter>Resource\sound\mam</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\0-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\0-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\3.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\4.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\5.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\6.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\7.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\8.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\9-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\9-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\9-2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\10-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\10-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\11.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\12.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\13.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\14.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\15.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\16.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\17.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\18-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\18-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\18-2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\19.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\20.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\21.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\22-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\22-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\22-2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\23.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\24.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\25-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\25-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\26-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\26-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\angang-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\angang-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\gang-0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\gang-1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\gang-2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\hu.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\hu1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\hu2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\peng0.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\peng1.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\peng2.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\peng3.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\sound\woman\peng4.OGG">
+      <Filter>Resource\sound\woman</Filter>
+    </None>
+    <None Include="..\Resources\Image\GK_new\guanka.plist">
+      <Filter>Resource\Image\GK_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Menu_new\bitmapFontTest4.fnt">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Menu_new\menu.plist">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Menu_new\number.fnt">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Menu_new\personset.plist">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Menu_new\white.fnt">
+      <Filter>Resource\Image\Menu_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\MJ_new\mjtt.plist">
+      <Filter>Resource\Image\MJ_new</Filter>
+    </None>
+    <None Include="..\Resources\Image\Net\Chat\chat.plist">
+      <Filter>Resource\Image\Net\Chat</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>Resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resource\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
