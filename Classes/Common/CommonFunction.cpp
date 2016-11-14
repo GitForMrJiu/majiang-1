@@ -612,10 +612,10 @@ void CommonFunction::sendAndroidRequest(const char * url)
 }
 
 void CommonFunction::addMarketLog(){
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if (CC_TARGET_PLATFORM == NULL)
 	JniMethodInfo minfo;//定义Jni函数信息结构体
 	bool isHave = JniHelper::getStaticMethodInfo(minfo,
-                                                 "com/cgc/frame/Common",
+                                                 "com/x/majiang/Common",
                                                  "addMarketLog", "()V");
 	if (!isHave) {
 		CCLOG("jni:addMarketLog()此函数不存在");
@@ -3058,11 +3058,11 @@ string CommonFunction::getMAC()
 
 //判断android系统版本是否>=2.2
 bool CommonFunction::isValidAndroidSysVer(){
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if (CC_TARGET_PLATFORM == NULL)
 	JniMethodInfo minfo;//定义Jni函数信息结构体 
 	jboolean ret = false;
 	bool isHave = JniHelper::getStaticMethodInfo(minfo, 
-                                                 "com/cgc/frame/Common", 
+                                                 "com/x/majiang/Common",
                                                  "isValidSysVersion","()Z");
 	if (!isHave) { 
 		CCLOG("jni:此函数不存在"); 
